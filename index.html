@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+
+<head>
+  <title>Rajasthan Tourism</title>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
+  <script type="text/javascript"src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript"src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript"src="bower_components/stamplay-js-sdk/dist/stamplay.min.js"></script>
+  <script type="text/javascript"src="bower_components/angular/angular.min.js"></script>
+  <script type="text/javascript"src="bower_components/angular-route/angular-route.min.js"></script>
+ <script type="text/javascript"src="app.js"></script>
+
+</head>
+
+<body 
+  <div class="container-fluid">
+    <div ng-include="'structure/menu.html'"></div>
+    <div ng-include="'structure/jumbotron.html'"></div>
+      <center>
+        <font color="white"
+        size="14">
+        <h1>Rajasthan Tourism</h1>
+        <p>Welcome To Rajasthan</p>
+        </font>
+        </center>
+    </div>
+    <div ng-view></div>
+     <div class="nav navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <center>
+            <a class="navbar-brand" href="#">Rajasthan</a>
+          </div>
+        <div class="collapse navbar-collapse"id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav"></center>
+            <li ui-sref-active="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+            <li ui-sref-active="active"><a href="#">Login</a></li>
+            <li ui-sref-active="active"><a href="#">Sign up</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle"data-toggle="dropdown"role="button" aria-haspopup="true" aria-expanded="false">Cities
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="https://blogit-shaurya99.c9users.io/templates/jaipur.html">Jaipur</a></li>
+                <li><a href="https://blogit-shaurya99.c9users.io/templates/jodhpur.html">Jodhpur</a></li>
+                <li><a href="https://blogit-shaurya99.c9users.io/templates/Ajmer.html">Ajmer</a></li>
+                <li><a href="https://blogit-shaurya99.c9users.io/templates/udaipur.html">Udaipur</a></li>
+                <li><a href="https://blogit-shaurya99.c9users.io/templates/Chittorgarh.html">Chittorgarh</a></li>
+             </li>
+             <li class="dropdown">
+              <a class="dropdown-toggle"data-toggle="dropdown"role="button" aria-haspopup="true" aria-expanded="false">Support
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Details</a></li>
+                <li><a href="#">Feedback</a></li>
+                </li>
+                </a>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</body>
+ <div id="tooplate_middle">
+        <div id="mid_slider">
+            <div id="flash_grid_slider">
+                <center>
+                    <img src="http://www.welcomerajasthan.com/images/rajasthan-tour-packages.jpg" alt="Jaipur" background-color=#b2b2b2/>
+                    </center>
+                </a>
+            </div>
+        </div>
+		
+        <div id="mid_left">
+            <div id="mid_title">
+          </div>
+<body background="http://ste.india.com/sites/default/files/2016/04/11/477953-rajasthan-ts.jpg" bgproperties="fixed"></body>
+</html>
+
